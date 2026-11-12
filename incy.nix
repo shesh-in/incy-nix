@@ -2,7 +2,7 @@
 
 pkgs.stdenv.mkDerivation rec {
   pname = "incy-desktop";
-  version = "3.6.0";
+  version = "3.9.0";
 
   src = pkgs.fetchurl {
     url = "https://github.com/INCY-DEV/incy-platforms/releases/download/desktop-v${version}/incy-linux-x64.pkg.tar.zst";
